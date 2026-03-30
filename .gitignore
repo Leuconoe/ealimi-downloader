@@ -1,0 +1,38 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local env and runtime state
+.env
+.env.*
+!.env.example
+.local/
+.agents/
+
+# Local reference repos
+kidsnote_downloader/
+swaydownloader/
+
+# Tool caches and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Downloader outputs and local files
+downloads*/
+output/
+*.log
+*.session
+*.cookies.json
+download_index.json
+run_summary.json

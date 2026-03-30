@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>알림장 검색 시작</title>
+  </head>
+  <body>
+    <input type="hidden" id="isAll" value="0">
+    <input type="hidden" id="listDate" value="90">
+    <input type="hidden" id="isApi" value="1">
+    <form id="receivednoti-search" method="get" action="/receivednoti">
+      <input type="hidden" name="category" value="received">
+      <input type="text" name="searchText" placeholder="검색어를 입력하세요">
+      <button type="submit">검색</button>
+    </form>
+  </body>
+</html>
