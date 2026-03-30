@@ -119,3 +119,7 @@ python -m ealimi_downloader --help
 - The current implementation follows the live eAlimi web contract observed during development: AJAX JSON login handling and `/ReceivedNoti/IndexThumnailJson` for keyword result paging.
 - If eAlimi changes those endpoints or field names, the crawler will need to be updated.
 - Examples in this README use masked placeholder IDs and addresses only.
+
+## Release Notes
+
+- See `RELEASE_NOTES.md` for the initial release summary and validation notes.
